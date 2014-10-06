@@ -27,7 +27,23 @@ You can then run from the terminal the command and that URL, which will be in th
 
 That will create a folder the same name as the repository into the folder you are in.
 
+
+#### `git status`
+Use this command all the time when you want to see what's going on. It will tell you what is changed, what is staged, and what is pushed to the server.
+
+#### `git pull`
+If there have been other changes to the repository that were not on your computer but are on the server, you need to `pull` them from the server, with `git pull`. The default is to pull from your origin, which is the GitHub server, so you don't need to tell it where to pull from. 
+
 #### `git add`
+When you add or modify a file, you need to add to to the staging area, (basically tell git that you care about that file and you want the changes to happen when you commit). Use `git add <filename>`
+
 #### `git commit`
+This will make a package of all your changes, and you need to give a message basically summarising what you changed. If you say `git commit`, it will open a editor to write your message, but you can do it easier by just typing `git commit -m "<your message here>"`
+
+
 #### `git push`
+This does the opposite of pull, which is to push your changes to the server. If someone has been editing the server, it will prevent you from doing this. You can simply run `git push`, but if your machine is not configured correctly it may give a warning. That is ok, but if you want to get into the habit you can run `git push origin master` which is explicit, saying that we want to push to the `origin` and we want to push the `master` branch. 
+
+
+
 
