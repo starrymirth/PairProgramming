@@ -9,7 +9,7 @@ but this will be a reference document for the git commands that we will use most
 ### Setting up an account on GitHub: 
 
 Pop over to (https://github.com) and make an account (username, email and password).
-Note that it will be public, and all projects will be public. If you need to work on something for SANSA, there is an internal GitLab server (talk to Herman for more information) or if you're working on your own stuff I recommend Atlassian Bitbucket, which allows you to have Private projects for very small groups. (Bitbucket also allows you to use Mercurial (`hg`) if you don't like `git`) 
+Note that it will be public, and all projects will be public. If you need to work on something for work, there is an internal GitLab server (talk to HT for more information) or if you're working on your own private stuff I recommend Bitbucket, which allows you to have Private projects for very small groups. 
 
 Once you have an account head over to the pair programming repository on my account
 (https://github.com/starrymirth/PairProgramming), and click the `Fork` button in the top right hand corner. This will take you to your own 'copy' of the repository, which you can edit freely. 
@@ -42,7 +42,7 @@ This will make a package of all your changes, and you need to give a message bas
 
 
 #### `git push`
-This does the opposite of pull, which is to push your changes to the server. If someone has been editing the server, it will prevent you from doing this. You can simply run `git push`, but if your machine is not configured correctly it may give a warning. That is ok, but if you want to get into the habit you can run `git push origin master` which is explicit, saying that we want to push to the `origin` and we want to push the `master` branch. 
+This does the opposite of pull, which is to push your changes to the server. If someone has been editing the server, it will prevent you from doing this. You can simply run `git push`, but if your machine is not configured correctly it may give a warning. That is ok, but if you want to get into the habit you can run `git push origin master` which is explicit, saying that we want to push to the `origin` and we want to push the `master` branch. We will not go into branching at this point, so this will always be the same.
 
 
 
